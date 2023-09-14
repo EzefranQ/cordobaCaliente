@@ -18,10 +18,10 @@
         data() {
             return {
                 ladysArr:[
-                    {name: 'Mamasita hot argentina', ubication: 'Córdoba', src: '../../public/lady2.jpg'},
-                    {name: 'Mamasita hot argentina', ubication: 'Córdoba', src: '../../public/lady.jpg'},
-                    {name: 'Mamasita hot argentina', ubication: 'Córdoba', src: '../../public/lady2.jpg'},
-                    {name: 'Mamasita hot argentina', ubication: 'Córdoba', src: '../../public/lady.jpg'}
+                    {name: 'Mamasita hot argentina', ubication: 'Córdoba', src: 'public/lady2.jpg'},
+                    {name: 'Mamasita hot argentina', ubication: 'Córdoba', src: 'public/lady.jpg'},
+                    {name: 'Mamasita hot argentina', ubication: 'Córdoba', src: 'public/lady2.jpg'},
+                    {name: 'Mamasita hot argentina', ubication: 'Córdoba', src: 'public/lady.jpg'}
                 ]
             }
         },
