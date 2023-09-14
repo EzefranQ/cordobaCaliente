@@ -1,10 +1,9 @@
 <template>
     <header class="">
         <header class="text-center py-6 flex justify-between md:justify-center items-center px-8 md:px-0 ">
-            <h1 class="text-4xl font-light leading-8" style="letter-spacing: 6px;">
-                Córdoba <br>
-                <span class="text-2xl block" style="letter-spacing: 3px;">Caliente</span>
-            </h1>
+            <div class="md:w-36 w-28 opacity-95">
+                <img src="../assets/img/logo.webp" alt="">
+            </div>
             <button class="hamburguesa md:hidden flex" @click="activeNavFunc()">
                 <div></div>
                 <div></div>
