@@ -1,7 +1,7 @@
 <template>
     <header class="">
-        <header class="text-center py-6 flex justify-between md:justify-center items-center px-8 md:px-0 ">
-            <div class="md:w-36 w-28 opacity-95">
+        <header class="text-center py-3 flex justify-between md:justify-center items-center px-8 md:px-0 ">
+            <div class="md:w-28 w-28 opacity-95">
                 <img src="../assets/img/logo.webp" alt="">
             </div>
             <button class="hamburguesa md:hidden flex" @click="activeNavFunc()">
