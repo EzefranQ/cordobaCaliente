@@ -10,6 +10,7 @@
             </div>
         </article>
     </div>
+    <img src="" alt="">
 </template>
 
 <script>
@@ -17,10 +18,10 @@
         data() {
             return {
                 ladysArr:[
-                    {name: 'Mamasita hot argentina', ubication: 'Córdoba', src: 'img/lady.jpg'},
-                    {name: 'Mamasita hot argentina', ubication: 'Córdoba', src: 'img/lady2.jpg'},
-                    {name: 'Mamasita hot argentina', ubication: 'Córdoba', src: 'img/lady.jpg'},
-                    {name: 'Mamasita hot argentina', ubication: 'Córdoba', src: 'img/lady2.jpg'}
+                    {name: 'Mamasita hot argentina', ubication: 'Córdoba', src: '../../public/lady2.jpg'},
+                    {name: 'Mamasita hot argentina', ubication: 'Córdoba', src: '../../public/lady.jpg'},
+                    {name: 'Mamasita hot argentina', ubication: 'Córdoba', src: '../../public/lady2.jpg'},
+                    {name: 'Mamasita hot argentina', ubication: 'Córdoba', src: '../../public/lady.jpg'}
                 ]
             }
         },
