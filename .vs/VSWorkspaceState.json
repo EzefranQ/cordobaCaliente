@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\categorias",
+    "\\src\\components\\clientes",
+    "\\src\\components\\proveedores"
+  ],
+  "SelectedNode": "\\src\\components\\CerrarSesion.vue",
+  "PreviewInSolutionExplorer": false
+}
