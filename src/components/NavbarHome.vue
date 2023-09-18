@@ -1,8 +1,8 @@
 <template>
-    <header class="">
+    <header class="bg-red">
         <header class="text-center py-3 flex justify-between md:justify-center items-center px-8 md:px-0 ">
-            <div class="md:w-28 w-28 opacity-95">
-                <img src="../assets/img/logo.webp" alt="">
+            <div class="md:w-28 w-28">
+                <img src="../assets/img/logow.webp" alt="">
             </div>
             <button class="hamburguesa md:hidden flex" @click="activeNavFunc()">
                 <div></div>
@@ -19,10 +19,10 @@
                </li>
             </ul>   
         </nav>
-        <nav class="text-black border-top w-[90%] m-auto py-4 hidden md:block  duration-300">
+        <nav class="text-white border-top w-[90%] m-auto py-4 hidden md:block  duration-300">
             <ul class="flex gap-10 justify-center">
                <li v-for="link in navbar" :key="link.id" >
-                    <a :href="link.link" class="duration-300 border-bottom text-lg opacity-80">
+                    <a :href="link.link" class="duration-300 border-bottom text-lg">
                         {{ link.name }}
                     </a>
                </li>
@@ -37,10 +37,10 @@
         return {
             navbar: [
                 { link: '#', name: 'Home'},
-                { link: '#', name: 'Galería'},
-                { link: '#', name: 'Servicios'},
-                { link: '#', name: 'Only Fans'},
-                { link: '#', name: 'Contacto'}
+                { link: '#', name: 'Mujeres'},
+                { link: '#', name: 'Maduras'},
+                { link: '#', name: 'Hombres'},
+                { link: '#', name: 'Trans'}
             ],
             activeNavbar: false,
             activeAnim: false,
@@ -59,11 +59,14 @@
 </script>
 
 <style scoped>
+.bg-red{
+        background: #5f001b;
+}
 .border-top{
-    border-top: 1px solid rgba(0, 0 ,0 , .6);
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
 }
 .border-bottom:hover{
-    border-bottom: 1px solid rgba(0, 0 ,0 , .4);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
 }
 .hamburguesa{
     flex-direction: column;

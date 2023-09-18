@@ -25,16 +25,88 @@
             <LadysHome></LadysHome>
         </section>
 
+        <section class="md:px-20 sm:px-10 px-4 py-16">
+            <div class="">
+                <header class="text-center">
+                    <h1 class="text-2xl md:text-4xl">DISFRUTA APROVECHANDO ESTOS BENEFICIOS</h1>
+                    <p class="mt-2 text-base md:text-lg">Se aporta la plataforma destacados Anuncios Online Escort Putas Cordoba</p>
+                </header>
+                <section class="grid md:grid-cols-2 grid-cols-1 place-content-center place-items-start gap-x-16 gap-y-8 mt-10 text-center py-6">
+                    <article class="md:w-10/12 w-full border-t-2 py-2 ">
+                        <h1 class="text-lg font-semibold">
+                            <span class="text-2xl">
+                                1.
+                            </span>
+                            Experiencia privacidad
+                        </h1>
+                        <p class="pt-2 text-base">Ofrecemos una plataforma exclusiva que te brinda estos beneficios.</p>
+                    </article>
+                    <article class="md:w-10/12 w-full border-t-2 py-2 ">
+                        <h1 class="text-lg font-semibold">
+                            <span class="text-2xl">
+                                2.
+                            </span>
+                            Variados Anuncios
+                        </h1>
+                        <p class="pt-2 text-base">Acompañantes para todos los gustos, imposible aburrirte!</p>
+                    </article>
+                    <article class="md:w-10/12 w-full border-t-2 py-2 ">
+                        <h1 class="text-lg font-semibold">
+                            <span class="text-2xl">
+                                3.
+                            </span>
+                            Buscador
+                        </h1>
+                        <p class="pt-2 text-base">Escort facilitará tu búsqueda personal.</p>
+                    </article>
+                    <article class="md:w-10/12 w-full border-t-2 py-2 ">
+                        <h1 class="text-lg font-semibold">
+                            <span class="text-2xl">
+                                4.
+                            </span>
+                            Contacto Directo 
+                        </h1>
+                        <p class="pt-2 text-base">Sin intermediarios llama directamente por los anunciantes.</p>
+                    </article>
+                    <article class="md:w-10/12 w-full border-t-2 py-2 ">
+                        <h1 class="text-lg font-semibold">
+                            <span class="text-2xl">
+                                5.
+                            </span>
+                            Comentarios
+                        </h1>
+                        <p class="pt-2 text-base">Podes dejar tus experiencias, destacando lo positivo sobre lo negativo con tu experiencia Escort.</p>
+                    </article>
+                    <article class="md:w-10/12 w-full border-t-2 py-2 ">
+                        <h1 class="text-lg font-semibold">
+                            <span class="text-2xl">
+                                6.
+                            </span>
+                            Solos / Solas
+                        </h1>
+                        <p class="pt-2 text-base">Ahora podes disfrutar. Dale una oportunidad, disfruta la soledad!.</p>
+                    </article>
+                </section>
+            </div>
+        </section>
+
     </main>
+
+    <footer>
+        <FooterView></FooterView>
+    </footer>
+
 </template>
 
 <script>
     import NavbarHome from '../components/NavbarHome.vue';
     import LadysHome from '../components/LadysHome.vue';
+    import FooterView from '../components/FooterView.vue';
     export default {
         components:{
             NavbarHome,
-            LadysHome
+            LadysHome,
+            FooterView
         },
 
     }
@@ -52,6 +124,9 @@
     width: 100%;
     height: 100%;
     z-index: 9;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(95, 0, 27, 0.3);
+}
+section > article{
+    border-color: #7e1629;
 }
 </style>
