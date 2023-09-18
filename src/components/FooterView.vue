@@ -59,10 +59,18 @@
     background-size: auto;
     background-position: right;
 }
+@media screen and (max-width: 600px) {
+    .bg-footer{
+        background: url('../assets/img/bg-footer.jpg');
+        background-position: 50% bottom;
+        background-repeat: no-repeat;
+    }
+}
 @media screen and (max-width: 500px) {
     .bg-footer{
         background: url('../assets/img/bg-footer.jpg');
-        background-position: 50%;
+        background-position: 50% bottom;
+        background-repeat: no-repeat;
     }
 }
 </style>
