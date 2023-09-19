@@ -32,7 +32,7 @@
                     <p class="mt-2 text-base md:text-lg">Se aporta la plataforma destacados Anuncios Online Escort Putas Cordoba</p>
                 </header>
                 <section class="grid md:grid-cols-2 grid-cols-1 place-content-center place-items-start gap-x-16 gap-y-8 mt-10 text-center py-6">
-                    <article class="md:w-10/12 w-full border-t-2 py-2 ">
+                    <article class="md:w-10/12 w-full border-t-2 py-2 mt-0 m-auto">
                         <h1 class="text-lg font-semibold">
                             <span class="text-2xl">
                                 1.
@@ -41,7 +41,7 @@
                         </h1>
                         <p class="pt-2 text-base">Ofrecemos una plataforma exclusiva que te brinda estos beneficios.</p>
                     </article>
-                    <article class="md:w-10/12 w-full border-t-2 py-2 ">
+                    <article class="md:w-10/12 w-full border-t-2 py-2 mt-0 m-auto ">
                         <h1 class="text-lg font-semibold">
                             <span class="text-2xl">
                                 2.
@@ -50,7 +50,7 @@
                         </h1>
                         <p class="pt-2 text-base">Acompañantes para todos los gustos, imposible aburrirte!</p>
                     </article>
-                    <article class="md:w-10/12 w-full border-t-2 py-2 ">
+                    <article class="md:w-10/12 w-full border-t-2 py-2 mt-0 m-auto ">
                         <h1 class="text-lg font-semibold">
                             <span class="text-2xl">
                                 3.
@@ -59,7 +59,7 @@
                         </h1>
                         <p class="pt-2 text-base">Escort facilitará tu búsqueda personal.</p>
                     </article>
-                    <article class="md:w-10/12 w-full border-t-2 py-2 ">
+                    <article class="md:w-10/12 w-full border-t-2 py-2 mt-0 m-auto ">
                         <h1 class="text-lg font-semibold">
                             <span class="text-2xl">
                                 4.
@@ -68,7 +68,7 @@
                         </h1>
                         <p class="pt-2 text-base">Sin intermediarios llama directamente por los anunciantes.</p>
                     </article>
-                    <article class="md:w-10/12 w-full border-t-2 py-2 ">
+                    <article class="md:w-10/12 w-full border-t-2 py-2 mt-0 m-auto ">
                         <h1 class="text-lg font-semibold">
                             <span class="text-2xl">
                                 5.
@@ -77,7 +77,7 @@
                         </h1>
                         <p class="pt-2 text-base">Podes dejar tus experiencias, destacando lo positivo sobre lo negativo con tu experiencia Escort.</p>
                     </article>
-                    <article class="md:w-10/12 w-full border-t-2 py-2 ">
+                    <article class="md:w-10/12 w-full border-t-2 py-2 mt-0 m-auto ">
                         <h1 class="text-lg font-semibold">
                             <span class="text-2xl">
                                 6.
