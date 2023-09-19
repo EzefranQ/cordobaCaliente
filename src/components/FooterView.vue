@@ -19,10 +19,10 @@
                             <p class="text-3xl">Escorts</p>
                         </header>
                         <div class="flex flex-col gap-2 md:pl-4 pl-0 md:text-start text-center">
-                            <a href="#">Mujeres</a>
-                            <a href="#">Hombres</a>
-                            <a href="#">Maduras</a>
-                            <a href="#">Trans</a>
+                            <a href="#" class="hover:text-[#eebd22] duration-300">Mujeres</a>
+                            <a href="#" class="hover:text-[#eebd22] duration-300">Hombres</a>
+                            <a href="#" class="hover:text-[#eebd22] duration-300">Maduras</a>
+                            <a href="#" class="hover:text-[#eebd22] duration-300">Trans</a>
                         </div>
                     </div>
                     <div>
@@ -30,9 +30,9 @@
                             <p class="text-3xl">Contacto</p>
                         </header>
                         <div class="flex flex-col gap-2 md:pl-4 pl-0 md:text-start text-center">
-                            <a href="#">Instagram</a>
-                            <a href="#">WhatsApp</a>
-                            <a href="#">Facebook</a>
+                            <a href="#" class="hover:text-[#eebd22] duration-300">Instagram</a>
+                            <a href="#" class="hover:text-[#eebd22] duration-300">WhatsApp</a>
+                            <a href="#" class="hover:text-[#eebd22] duration-300">Facebook</a>
                         </div>
                     </div>
                 </article>

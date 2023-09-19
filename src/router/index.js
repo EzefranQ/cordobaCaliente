@@ -1,6 +1,7 @@
 import { createWebHistory, createRouter } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import PanelView from "../views/PanelView.vue";
+import HomeServices from "../views/HomeServices.vue";
 import AddUser from "../components/AddUser.vue";
 import ViewUser from "../components/ViewUser.vue";
 const routes = [
@@ -26,11 +27,11 @@ const routes = [
       }
   ]
   },
-  // {
-  //   path: "/addUser",
-  //   name: "addUser",
-  //   component: AddUser,
-  // },
+  {
+    path: "/homeServices",
+    name: "homeServices",
+    component: HomeServices,
+  },
 ];
 
 const router = createRouter({
