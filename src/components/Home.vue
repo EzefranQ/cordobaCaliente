@@ -26,6 +26,26 @@
         </section>
 
         <section class="md:px-20 sm:px-10 px-4 py-16">
+            <header class="text-center">
+                <h1 class="text-2xl md:text-4xl">Córdoba Caliente</h1>
+                <p class="mt-2 text-base md:text-lg">Portal Online, sobre Acompañantes Escorts organizados</p>
+            </header>
+
+            <article class="mt-14 text-center grid md:grid-cols-2 grid-cols-1 gap-6">
+                <div class="">
+                    <img src="../assets/img/hero-banner.jpg" alt="" class="w-full h-full object-cover">
+                </div>
+                <div class="">
+                    <p>
+                        En el Sitio las publicaciones anunciadas son todas mayores de edad, libres con autodeterminación y su propia elección, ademas tienen exclusiva responsabilidad acorde a las leyes del país ejercen su actividad.
+                        Este portal esta en contra de cualquier forma de Trata de Personas. El sitio se limita a publicar Anuncios que entre sus opciones, ofrecen entretenimiento, amistad o posibles relaciones casuales, Sierras Calientes no promoverá, facilitara ni fomentara explotación sexual de sus anunciantes.
+                    </p>
+                </div>
+            </article>
+
+        </section>
+
+        <section class="md:px-20 sm:px-10 px-4 py-16">
             <div class="">
                 <header class="text-center">
                     <h1 class="text-2xl md:text-4xl">DISFRUTA APROVECHANDO ESTOS BENEFICIOS</h1>
