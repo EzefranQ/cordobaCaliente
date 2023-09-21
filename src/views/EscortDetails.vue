@@ -4,16 +4,16 @@
     </header>
     <div class="bg-[#440218] text-[#eebd22]">
         <main class="py-6 w-10/12 m-auto">
-            <header class="flex justify-between items-start">
-                <div class="flex flex-col text-left">
-                    <h1 class="text-2xl uppercase tracking-wider text-white">Ingrid Betancourd</h1>
-                    <p class="text-xl">Escort en Cordoba, Calle 23</p>
+            <header class="flex justify-between items-center md:items-start md:flex-row flex-col gap-8">
+                <div class="flex flex-col text-center md:text-left">
+                    <h1 class="text-xl md:text-2xl uppercase tracking-wider text-white">Ingrid Betancourd</h1>
+                    <p class="text-lg md:text-xl">Escort en Cordoba, Calle 23</p>
                 </div>
-                <div class="flex flex-col text-right">
-                    <a href="#" class="text-2xl uppercase tracking-wider text-white">
+                <div class="flex flex-col text-center md:text-right">
+                    <a href="#" class="text-xl md:text-2xl uppercase tracking-wider text-white">
                         642340353431
                     </a>
-                    <a href="#" class="text-xl">
+                    <a href="#" class="text-lg md:text-xl">
                         Betancourd_ingrid@hotmail
                     </a>
                 </div>
@@ -51,18 +51,18 @@
                 </span>
             </button>
         </div>
-        <section class="py-6 w-10/12 m-auto flex flex-col xl:flex-row gap-8">
+        <section class="py-6 w-10/12 m-auto flex flex-col xl:flex-row gap-8 text-center md:text-left">
             <article class="bg-[#111] px-6 py-8 xl:w-[70%] w-full">
                 <header>
                     <h1 class="text-2xl uppercase tracking-wider text-[#f26d7d]">Sobre mi</h1>
                 </header>
                 <section class="mt-6">
-                    <p class="text-white leading-9">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod voluptas accusantium id facilis omnis. Cupiditate labore dolore error illo animi atque voluptas natus quibusdam voluptate, accusamus sequi consectetur doloribus ullam molestias provident blanditiis cum? Alias quisquam impedit, at velit, porro facilis quo, sed architecto consequatur quidem autem repudiandae? Unde, libero.
+                    <p class="text-white leading-7 md:leading-9">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod voluptas accusantium id facilis omnis. Cupiditate labore dolore error illo animi atque voluptas natus quibusdam voluptate, accusamus sequi consectetur doloribus ullam molestias provident blanditiis cum? Alias quisquam impedit, at velit, porro facilis quo, sed architecto consequatur quidem autem repudiandae? Unde, libero.
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quisquam laudantium, ducimus hic eaque dolore ullam laborum maiores impedit corporis! Rerum recusandae dignissimos alias exercitationem voluptates deserunt rem commodi consequuntur magni nisi officia fuga aut ab doloribus sunt, dolorem reiciendis sint in eaque maiores quod quisquam enim consectetur voluptatum! Velit quidem perspiciatis dignissimos, nulla, officiis veniam dolores expedita porro harum vitae numquam, voluptatibus perferendis quibusdam quae consequuntur totam! Iste nostrum reiciendis consequuntur expedita temporibus sint harum necessitatibus, beatae officiis totam.
                     </p>
                 </section>
             </article>
-            <aside class="flex flex-col gap-6 xl:w-[30%] w-full">
+            <aside class="flex flex-col gap-6 xl:w-[30%] w-full text-left">
                 <div class="bg-[#111] px-6 py-8">
                     <h1 class="text-2xl uppercase tracking-wider text-[#f26d7d]">Mis Detalles</h1>
                     <ul class="mt-6 flex xl:flex-col flex-row xl:gap-4 gap-14 flex-wrap">
@@ -104,14 +104,18 @@
                         </li>
                     </ul>
                 </div>
-                <article class="bg-[#111] px-6 py-8 ">
+                <article class="bg-[#111] px-6 py-8">
                     <h1 class="mb-4 text-xl uppercase tracking-wider text-[#f26d7d]">Información de contacto</h1>
-                   <div class="flex gap-1 flex-col">
+                   <div class="flex gap-4">
                         <a href="#" class="text-base uppercase tracking-wider text-white">
-                            642340353431
+                            <div class="w-[40px]">
+                                <img src="../assets/img/whatsapp.png" alt="">
+                            </div>
                         </a>
                         <a href="#" class="text-base text-white">
-                            Betancourd_ingrid@hotmail
+                            <div class="w-[40px]">
+                                <img src="../assets/img/email.png" alt="">
+                            </div>
                         </a>
                    </div>
                 </article>
