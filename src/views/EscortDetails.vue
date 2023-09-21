@@ -107,14 +107,19 @@
                 <article class="bg-[#111] px-6 py-8">
                     <h1 class="mb-4 text-xl uppercase tracking-wider text-[#f26d7d]">Información de contacto</h1>
                    <div class="flex gap-4">
-                        <a href="#" class="text-base uppercase tracking-wider text-white">
+                        <a href="#" class="">
                             <div class="w-[40px]">
                                 <img src="../assets/img/whatsapp.png" alt="">
                             </div>
                         </a>
-                        <a href="#" class="text-base text-white">
+                        <a href="#" class="">
                             <div class="w-[40px]">
                                 <img src="../assets/img/email.png" alt="">
+                            </div>
+                        </a>
+                        <a href="#" class="">
+                            <div class="w-[40px]">
+                                <img src="../assets/img/telegram.png" alt="">
                             </div>
                         </a>
                    </div>
