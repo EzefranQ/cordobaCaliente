@@ -4,6 +4,8 @@ import PanelView from "../views/PanelView.vue";
 import HomeServices from "../views/HomeServices.vue";
 import AddUser from "../components/AddUser.vue";
 import ViewUser from "../components/ViewUser.vue";
+import EscortDetails from "../views/EscortDetails.vue";
+
 const routes = [
   {
     path: "/",
@@ -31,6 +33,11 @@ const routes = [
     path: "/homeServices",
     name: "homeServices",
     component: HomeServices,
+  },
+  {
+    path: "/escortDetails",
+    name: "EscortDetails",
+    component: EscortDetails,
   },
 ];
 
