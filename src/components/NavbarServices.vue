@@ -12,7 +12,14 @@
                 </div>
                 <ul class="flex md:flex md:flex-row flex-col gap-4 md:gap-10 items-center md:mt-0 mt-6" v-bind:class="[activeAnim ? 'flex' : 'hidden']">
                         <li class="text-base border-2 border-[#fff] text-[#fff] flex items-center justify-center px-2 uppercase hover:bg-[#ffff] hover:text-black duration-300">
-                            <a href="#">Escorts</a>
+                            <routerLink to="/escorts">
+                                Escorts
+                            </routerLink>
+                        </li>
+                        <li class="hover:text-[#b70d4b] duration-300 text-lg border-2 border-transparent">
+                            <routerLink to="/condiciones">
+                                Condiciones
+                            </routerLink>
                         </li>
                         <li class="hover:text-[#b70d4b] duration-300 text-lg border-2 border-transparent">
                             <a href="#">Mujeres</a>

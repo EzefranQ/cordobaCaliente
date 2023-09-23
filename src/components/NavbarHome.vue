@@ -36,6 +36,7 @@
       data() {
         return {
             navbar: [
+                
                 { link: '#', name: 'Home'},
                 { link: '#', name: 'Mujeres'},
                 { link: '#', name: 'Maduras'},

@@ -1,5 +1,5 @@
 <template>
-    <main>
+    <main class="bg-[#f2f2f5]">
         <header>
             <NavbarHome></NavbarHome>
         </header>
@@ -11,9 +11,11 @@
                     <p class=" duration-300 sm:text-4xl sm:mt-0 mt-4 text-3xl">Córdoba Caliente es una agencia de alto standing con un abanico de Escorts disponibles</p>
                 </article>
                 <div class="flex sm:gap-8 justify-center mt-8 sm:flex-row flex-col items-center gap-3">
-                    <a href="#" class="btn-red-color py-2.5 px-6 duration-300">
-                        Acepto las condiciones
-                    </a>    
+                    <RouterLink to="condiciones">
+                        <a href="#" class="btn-red-color py-2.5 px-6 duration-300">
+                            Acepto las condiciones
+                        </a>   
+                    </RouterLink>
                     <a href="#" class="btn-red-color py-2.5 px-6 duration-300">
                         Ingresar Escort guía
                     </a>    
